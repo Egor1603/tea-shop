@@ -30,3 +30,4 @@ const PRODUCTS = [
     description: "Исинский чайник, объём 120 мл."
   }
 ];
+
