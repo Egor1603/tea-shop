@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Чай</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap&subset=cyrillic" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head>
+<body>
+<header><nav>
+<a href="ware.html">Посуда</a>
+<a href="tea.html" class="active">Чай</a>
+</nav></header>
+<main id="grid" data-category="tea"></main>
+<div id="sheet" hidden>
+<div class="panel">
+<button id="close" aria-label="Закрыть">✕</button>
+<div class="pic" id="s-pic"></div>
+<div class="price" id="s-price"></div>
+<h2 id="s-name"></h2>
+<p id="s-desc"></p>
+</div></div>
+<script src="products.js"></script>
+<script src="script.js"></script>
+</body></html>
